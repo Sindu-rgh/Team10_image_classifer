@@ -18,3 +18,8 @@ def train_model():
             epochs=EPOCHS,
             callbacks=callbacks
             )
+    plt.plot(history.history['accuracy'],
+             label='train accuracy')
+
+    plt.plot(history.history['val_accuracy']
+
