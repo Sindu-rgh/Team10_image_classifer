@@ -12,3 +12,9 @@ def train_model():
             EarlyStopping(patience=5,
                           restore_best_weights=True)
             ]
+    history=model.fit(
+            train_data,
+            validation_data=val_data,
+            epochs=EPOCHS,
+            callbacks=callbacks
+            )
