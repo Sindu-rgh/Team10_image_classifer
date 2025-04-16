@@ -21,5 +21,8 @@ def train_model():
     plt.plot(history.history['accuracy'],
              label='train accuracy')
 
-    plt.plot(history.history['val_accuracy']
-
+    plt.plot(history.history['val_accuracy'],
+             label='validation accuracy')
+    plt.xlabel('Epoch')
+    plt.ylabel('accuracy')
+    plt.legend()
