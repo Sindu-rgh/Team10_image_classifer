@@ -5,3 +5,6 @@ def train_model():
     create_model(input_shape=(IMG_SIZE[0],
     IMG_SIZE[1], 3),
     NUM_Classes=train_data.num_classes)
+    
+    call backs = [
+            model
