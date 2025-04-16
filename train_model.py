@@ -7,4 +7,8 @@ def train_model():
     NUM_Classes=train_data.num_classes)
     
     call backs = [
-            model
+            modelcheckpoint(MODEL_PATH,
+                            save_best_only=True),
+            EarlyStopping(patience=5,
+                          restore_best_weights=True)
+            ]
