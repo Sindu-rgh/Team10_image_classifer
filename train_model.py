@@ -23,4 +23,6 @@ plt.plot(history.history['accuracy'],
 plt.xlabel('Epoch')
 plt.ylabel('Accuracy')
 plt.legend()
-plt
+plt.title('training accuracy')
+plt savefig('training_accuracy.png')
+plt.close()
