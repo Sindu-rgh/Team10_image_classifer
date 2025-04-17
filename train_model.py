@@ -26,3 +26,8 @@ plt.legend()
 plt.title('training accuracy')
 plt savefig('training_accuracy.png')
 plt.close()
+print("training complete.model
+      saved to:",MODEL_PATH)
+#======== 4. PREDICT SINGLE IMAGE
+========
+def predict_image(img_path):
