@@ -6,4 +6,8 @@ create_model(input_shape=(IMG_SIZE[0],
                           IMG_SIZE[1], 3),
              num_classes=train_data.num_classes)
 
-
+callbacks=[
+        modelcheckpoint(MODEL_PATH,
+                        save_best_only=true),
+        EarlyStopping(patience=5,
+                      restore_best_weight=true)
