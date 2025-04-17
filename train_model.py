@@ -11,3 +11,10 @@ callbacks=[
                         save_best_only=true),
         EarlyStopping(patience=5,
                       restore_best_weight=true)
+        ]
+history=model.fit(
+        train_data,
+        validation_data=val_data,
+        epochs=EPOCHS,
+        callbacks=callbacks
+        )
