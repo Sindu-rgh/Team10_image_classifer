@@ -41,3 +41,8 @@ def predict_image(img_path):
     prediction=
     model.predict(img_array)
     predicted_class=
+    np.argmax(prediction) 
+    print(f"predicted class index:
+    {predicted_class}")
+    return predicted_class
+
