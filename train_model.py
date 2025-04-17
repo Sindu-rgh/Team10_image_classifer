@@ -18,3 +18,9 @@ history=model.fit(
         epochs=EPOCHS,
         callbacks=callbacks
         )
+plt.plot(history.history['accuracy'],
+         label='train accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.legend()
+plt
