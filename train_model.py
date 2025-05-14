@@ -58,3 +58,5 @@ predictions=
 model.predict(test_data)
 y_pred=np.argmax(predictions, axis=1)
 y_true=test_data.classes
+print("\nClassification report:")
+print(classification_report(y_true,y_pred,
