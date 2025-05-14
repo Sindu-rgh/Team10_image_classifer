@@ -46,4 +46,5 @@ def predict_image(img_path):
     {predicted_class}")
     return predicted_class
 def evaluate_model():
-
+model=load_model(MODEL_PATH)
+datagen =
