@@ -50,4 +50,7 @@ model=load_model(MODEL_PATH)
 datagen =
 ImageDataGenerator(rescale=1./255)
 test_data_=
-
+datagen.flow_from_directory(
+        TEST_DIR, target_size=IMG_SIZE,
+        class_mode='categorical',shuffle=False
+        )
