@@ -48,3 +48,6 @@ def predict_image(img_path):
 def evaluate_model():
 model=load_model(MODEL_PATH)
 datagen =
+ImageDataGenerator(rescale=1./255)
+test_data_=
+
