@@ -65,3 +65,6 @@ print("\nConfusion matrix:")
 print(confusion_matrix(y_true,y_pred))
 if__name__=="__main__":
     print("AI image classifer")
+    print("1. train model")
+    print("2.predict single image")
+
