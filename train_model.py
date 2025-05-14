@@ -67,4 +67,6 @@ if__name__=="__main__":
     print("AI image classifer")
     print("1. train model")
     print("2.predict single image")
+print("3.evaluate on test set")
+choice = input("select an option(1/2/3/):")
 
