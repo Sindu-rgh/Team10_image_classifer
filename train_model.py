@@ -54,3 +54,5 @@ datagen.flow_from_directory(
         TEST_DIR, target_size=IMG_SIZE,
         class_mode='categorical',shuffle=False
         )
+predictions=
+model.predict(test_data)
