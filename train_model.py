@@ -45,4 +45,5 @@ def predict_image(img_path):
     print(f"predicted class index:
     {predicted_class}")
     return predicted_class
+def evaluate_model():
 
