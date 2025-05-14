@@ -63,4 +63,5 @@ print(classification_report(y_true,y_pred,
                             target_names=list(test_data.class_indice s.keys())))
 print("\nConfusion matrix:")
 print(confusion_matrix(y_true,y_pred))
-
+if__name__=="__main__":
+    print("AI image classifer")
