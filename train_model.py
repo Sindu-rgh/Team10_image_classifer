@@ -73,3 +73,5 @@ if choice =="1"
 train_model()
 elif choice =="2"
 image_path = input("enter path to the image:")
+predict_single_image(image_path)
+elif choice=="3":
