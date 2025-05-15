@@ -77,3 +77,5 @@ predict_single_image(image_path)
 elif choice=="3":
     evaluate_model()
 else:
+    print("invalid choice.
+    please select 1,2, or 3.")
