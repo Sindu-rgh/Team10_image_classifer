@@ -69,4 +69,5 @@ if__name__=="__main__":
     print("2.predict single image")
 print("3.evaluate on test set")
 choice = input("select an option(1/2/3/):")
-
+if choice =="1"
+train_model()
