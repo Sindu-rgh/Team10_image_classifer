@@ -71,3 +71,5 @@ print("3.evaluate on test set")
 choice = input("select an option(1/2/3/):")
 if choice =="1"
 train_model()
+elif choice =="2"
+image_path = input("enter path to the image:")
