@@ -4,3 +4,4 @@ history=model.first(
 epochs=EPOCHS,
 callbacks=callbacks
 )
+plt.plot(history.history['accuracy'],
