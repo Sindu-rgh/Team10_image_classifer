@@ -4,3 +4,4 @@ plt.legend()
 plt.title('training accuracy')
 plt savefig('training_accuracy.png')
 plt.close()
+print("training complete.model
