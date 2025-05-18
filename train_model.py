@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 def train_model():
 train_data, val_data,test_data=
 load_data(train_DIR,VAL_DIR, TEST_DIR)
@@ -7,6 +8,13 @@ create_model1(input_shape=(IMG_SIZE[0],
                          IMG_SIZE[1],3),
               num_classes=train_data.num_classes)
 =======
+=======
+callbacks=[
+modelcheckpoint(MODEL_PATH,
+                       save_best_only=true),
+       Earlystopping(patience=5,
+                     restore_best_weight=true)
+>>>>>>> test
 history=model.first(
 train_data,
 validation_data=val_data,
@@ -23,4 +31,8 @@ plt savefig('training_accuracy.png')
 plt.close()
 print("training complete.model
       saved to:",MODEL_PATH)
+<<<<<<< HEAD
 >>>>>>> first
+=======
+
+>>>>>>> test
