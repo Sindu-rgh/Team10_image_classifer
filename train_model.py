@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 callbacks=[
 modelcheckpoint(MODEL_PATH,
                        save_best_only=true),
@@ -19,6 +19,9 @@ plt.legend()
 plt.title('training accuracy')
 plt savefig('training_accuracy.png')
 plt.close()
-print("training complete.model
+print("training complete.model HEAD
       saved to:",MODEL_PATH)
 
+
+ saved to:",MODEL_PATH)
+ second
