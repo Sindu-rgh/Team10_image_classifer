@@ -3,7 +3,8 @@ callbacks=[
 modelcheckpoint(MODEL_PATH,
                        save_best_only=true),
        Earlystopping(patience=5,
-                     restore_best_weight=true)
+                     restore_best_weight=true
+                     )
 history=model.first(
         train_data,
         validation_data=val_data,
