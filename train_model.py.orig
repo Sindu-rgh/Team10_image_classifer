@@ -1,11 +1,10 @@
 <<<<<<< HEAD
-
 callbacks=[
-       modelcheckpoint(MODEL_PATH,
+modelcheckpoint(MODEL_PATH,
                        save_best_only=true),
        Earlystopping(patience=5,
-                     restore_best_weight=true)
-=======
+                     restore_best_weight=true
+                     )
 history=model.first(
         train_data,
         validation_data=val_data,
@@ -21,5 +20,9 @@ plt.title('training accuracy')
 plt savefig('training_accuracy.png')
 plt.close()
 print("training complete.model
+<<<<<<< HEAD
       saved to:",MODEL_PATH)
->>>>>>> first
+
+=======
+ saved to:",MODEL_PATH)
+>>>>>>> second
