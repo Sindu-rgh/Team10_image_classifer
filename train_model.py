@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 def train_model():
 train_data, val_data,test_data=
 load_data(train_DIR,VAL_DIR, TEST_DIR)
@@ -40,13 +38,7 @@ plt savefig('training_accuracy.png')
 plt.close()
 print("training complete.model HEAD
       saved to:",MODEL_PATH)
-<<<<<<< HEAD
->>>>>>> first
-=======
 
-<<<<<<< HEAD
->>>>>>> test
-=======
 
  saved to:",MODEL_PATH)
  second
