@@ -1,5 +1,5 @@
 # 🧠 Train Model: Image Classifier
-
+hi
 A machine learning project for training an image classification model using a labeled dataset. This repository is part of a Source Code Management (SCM) assignment and demonstrates version control practices, Git/GitHub integration, and model training workflow.
 
 ---
